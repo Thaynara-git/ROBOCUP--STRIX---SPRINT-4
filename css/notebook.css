@@ -1,0 +1,354 @@
+/*PRINCIPAL*/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.main{
+    background-color: white ;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 10px #000;
+    
+}
+
+/*POSICIONAMENTO DO MENU*/
+.menu{
+    padding: 0px 0px;
+    margin-left: 40px;
+    margin-top: -75px;
+
+}
+
+.menumaior{
+    font-size: 18px;
+}
+
+
+/*MENU*/
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    position: relative;
+    margin-left: 100px;
+}
+
+/*HORIZONTAL*/
+.menu ul li a{
+    display: inline-block;
+    background-color: rgb(226, 223, 233);
+    padding: 10px 20px ;
+    border: 1px solid rgb(226, 223, 233);
+    margin-right: 10px;
+    
+}
+
+/*SUB MENU*/
+.menu ul li ul{
+    display: none;
+    position: absolute;
+}
+
+/*ITENS DO MENU*/
+.menu li:hover ul {
+    display: block;
+}
+
+/*SUB MENU COR*/
+.menu ul li ul li a:hover{
+    background-color: thistle;
+    font-size: 15px;
+}
+
+/*LARGURA DO SUB MENU*/
+.menu ul li ul li a{
+    width: 105px;
+    font-size: 15px;
+    margin-left: -105px;
+}
+
+li a{
+    color: black;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+/*LOGO*/
+.logo{
+    margin-left: 10px;
+}
+
+/*BOX MENU*/
+.header{
+    background-color:rgb(226, 223, 233);
+}
+
+/*BOX STRIX*/
+
+.strix{
+    background-color: thistle;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 960px;
+    height: 170px;
+    margin-top: 50px;
+}
+
+.strix p{
+    margin-top: -20px;
+}
+
+/*BOX FOTOS*/
+
+.galeria{
+    float: right;
+    margin-top: 18px; 
+    background-color:rgb(226, 223, 233);
+    width: 1000px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img10, .img11{
+    margin-left: 63px;
+    margin-top: 55px;
+    float: left;
+    height: 230px;
+}
+
+.img5, .img4, .img7{
+    margin-bottom: 75px;
+}
+
+/*BOX SISTEMA DA ARMA*/
+
+.arma{
+    background-color: rgb(209, 180, 211);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 235px;
+    margin-top: 50px;
+    
+}
+
+/*BOX HARDWARE*/
+
+.hardware{
+    background-color:rgb(177, 113, 166);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 235px;
+    margin-top: 50px;
+    
+}
+
+/*BOX VIDEOS*/
+
+.videos{
+    background-color:  black;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 960px;
+    height: 250px;
+    margin-top: 50px;
+
+}
+
+
+.video2{
+    float: right;
+    margin-top: -45px
+   
+}
+
+/*BOTAO VIDEO 1 E 2*/
+
+.btn {
+    position: relative;
+    width: 120px;
+    margin-left: 0px;
+    padding: 5px;
+    top: 0px;
+    margin-top: -260px;
+    text-align: center;
+    background-color: #ff47fd;
+    font-family: 'Secular One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #B0E0E6;
+}
+
+/*IMAGENS INTEGRANTES*/
+
+.ana1, .celio1, .giovanna1, .rafaela1, .thaynara1{
+    box-shadow: 0px 0px 5px #000;
+    margin-left: 35px;
+   
+}
+
+/*BOX GRUPO*/
+
+.grupo{
+    background-color: rgb(177, 175, 175);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 10px;
+    width: 977px;
+    height: 460px;
+    margin-top: 50px;
+    
+    
+}
+
+/*BOX DA IMAGENS DOS INTEGRANTES*/
+
+.ana, .celio, .giovanna, .rafaela, .thaynara{
+    background-color:rgb(206, 204, 204);
+    width: 180px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 40px;
+}
+
+/*PARAGRÁFOS, TÍTULOS*/
+
+p, h1, h2, h3{
+    text-align: center;
+    
+}
+
+.negrito{
+    color: white;
+    font-size: 20px;
+}
+
+.negrito:hover{
+    color: rgb(56, 5, 56);
+}
+
+/*BOX ROBOCUP*/
+
+.robocup{
+    background-color: rgb(179, 126, 190);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 380px;
+    margin-top: 50px;
+   
+
+}
+
+/*BOX NEXT*/
+
+.next{
+    background-color: rgb(154, 154, 156);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 380px;
+    margin-top: 50px;
+}
+
+/*BOX SEJA PARCEIRO*/
+
+.formulario{
+    background-color: #CCA9DD;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 955px;
+    height: 485px;
+    margin-top: 50px;
+}
+
+/*BOTAO FORMULARIO*/
+
+.btn1{
+    position: relative;
+    width: 120px;
+    margin-left: 0px;
+    padding: 5px;
+    top: 0px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:  #8138a8;
+    font-family: 'Secular One', sans-serif;
+}
+
+.btn1:hover {
+    background-color:rgb(226, 223, 233);
+    
+}
+
+/*RODAPÉ*/
+.rodape
+{
+    background-color: rgb(226, 223, 233);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 955px;
+    height: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.rodapelista1, .rodapelista2, .youtube, .inicio, .copyright, .titulo{
+    list-style: none;
+    float: left;
+    margin-left: 60px;
+    
+}
+
+a:visited {
+    color: black;
+}
+
+.titulo {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.titulo{
+    font-size: large;
+}
+
+h1, h2, h3, .youtube, .inicio{
+    font-family: 'Times New Roman', Times, serif;
+}
+.copyright
+{
+    margin-top: -10px;
+}
+
+
+/*rgb(226, 223, 223)
+thistle
+rgb(236, 170, 225)
+rgba(151, 100, 149, 0.767)
+rgb(236, 170, 225);
+rgb(211, 195, 212)
+rgb(190, 111, 177)
+rgb(122, 45, 112)
+rgb(177, 175, 175)
+rgb(255, 247, 247)*/

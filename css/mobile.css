@@ -1,0 +1,436 @@
+/*PRINCIPAL*/
+
+html {
+    scroll-behavior: smooth;
+    padding: 0;
+  }
+
+.main{
+    background-color: white ;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 10px #000;
+    
+}
+
+/*POSICIONAMENTO DO MENU*/
+.menu{
+    padding: 0px 0px;
+    margin-left: 32px;
+    margin-top: -30px;
+}
+
+.menumaior{
+    font-size: 12px;
+}
+
+/*MENU*/
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    position: relative;
+    margin-left: 40px;
+}
+
+/*HORIZONTAL*/
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(226, 223, 233);
+    padding: 1px 5px ;
+    border: 1px solid rgb(226, 223, 233);
+    margin-right: 15px;
+}
+
+/*SUB MENU*/
+.menu ul li ul{
+    display: none;
+    position: absolute;
+}
+
+/*ITENS DO MENU*/
+.menu li:hover ul {
+    display: block;
+}
+
+/*SUB MENU COR*/
+.menu ul li ul li a:hover{
+    background-color: thistle;
+    font-size: 11px;
+}
+
+/*LARGURA DO SUB MENU*/
+.menu ul li ul li a{
+    width: 80px;
+    font-size: 11px;
+    margin-left: -40px;
+}
+
+li a{
+    color: black;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+/*LOGO*/
+.logo{
+    margin-left: 20px;
+}
+
+.logotablet{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    
+}
+
+/*BOX MENU*/
+.header{
+    background-color:rgb(226, 223, 233);
+    height: 50px;
+    
+}
+
+/*BOX STRIX*/
+
+.strix{
+    background-color: thistle;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 230px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.strix p{
+    margin-top: -5px;
+}
+
+
+/*BOX FOTOS*/
+
+.galeria{
+    float: left;
+    margin-top: 30px; 
+    background-color: rgb(226, 223, 233);
+    width: 500px;
+    box-shadow: 0px 0px 10px #000;
+    
+
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img10, .img11{
+    margin-left: 120px;
+    margin-top: 55px;
+    float: left;
+    height: 230px;
+
+}
+
+.img4, .img5{
+    margin-top: -20px;
+}
+
+
+/*BOX SISTEMA DA ARMA*/
+
+.arma{
+    background-color: rgb(209, 180, 211);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 55px;
+
+}
+
+/*BOX HARDWARE*/
+
+.hardware{
+    background-color: rgb(177, 113, 166);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 260px;
+    margin-top: 50px;
+    
+}
+
+/*BOX VIDEOS*/
+
+.videos{
+    background-color:  black;
+    float: left;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 465px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 50px;
+ 
+
+}
+
+.videotablet1, .videotablet2{
+   
+    width: 465px;
+    height: 200px;
+    
+}
+
+.videotablet2{
+    margin-top: 200px;
+    margin-bottom: 12px;
+    height: 200px;
+   
+}
+
+
+
+/*BOTAO VIDEO 1 E 2*/
+
+.btn {
+    position: relative;
+    width: 70px;
+    padding: 4px;
+    top: 0px;
+    margin-top: -205px;
+    text-align: center;
+    background-color: #ff47fd;
+    font-family: 'Secular One', sans-serif;
+    margin-left: -5px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(226, 223, 233);
+}
+
+
+
+/*IMAGENS INTEGRANTES*/
+.ana1, .celio1, .giovanna1, .rafaela1, .thaynara1{
+    box-shadow: 0px 0px 10px #000;
+    margin-left: 50px;
+    width: 85px;
+    height: 85px;
+   
+}
+
+/*BOX GRUPO*/
+
+.grupo{
+    background-color: rgb(177, 175, 175);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 10px;
+    width: 480px;
+    height: 750px;
+    margin-top: 50px;
+}
+
+/*BOX DA IMAGENS DOS INTEGRANTES*/
+
+.ana, .celio, .giovanna, .rafaela, .thaynara{
+    background-color:rgb(206, 204, 204);
+    width: 180px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.thaynara{
+    margin-left: 160px ;
+}
+
+/*PARAGRÁFOS, TÍTULOS*/
+
+p, h2, h3{
+    text-align: center;
+    font-size: 17px;
+    
+}
+h1{
+    font-size: 20px;
+    
+}
+
+.grupo p, h2, h3{
+    text-align: center;
+    font-size: 13px;
+    
+}
+
+.grupo h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.negrito{
+    font-size: 18px;
+  
+}
+
+
+
+
+/*BOX ROBOCUP*/
+
+.robocup{
+    background-color:rgb(179, 126, 190);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 360px;
+    margin-top: 50px;
+    margin-left: 55px;
+
+}
+
+/*BOX NEXT*/
+
+.next{
+    background-color:rgb(154, 154, 156);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 280px;
+    
+}
+
+/*BOX SEJA PARCEIRO*/
+
+.formulario{
+    background-color:#CCA9DD;
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 570px;
+    margin-top: 50px;
+}
+.formulario h2{
+    font-size: 19px;
+
+}
+
+/*BOTAO FORMULARIO*/
+
+.btn1{
+    position: relative;
+    width: 120px;
+    margin-left: 0px;
+    padding: 5px;
+    top: 0px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: 	#8138a8;
+    font-family: 'Secular One', sans-serif;
+}
+
+.btn1:hover {
+    background-color: rgb(226, 223, 233);
+}
+
+/*RODAPÉ*/
+.rodape
+{
+    background-color: rgb(226, 223, 233);
+    float: right;
+    box-shadow: 0px 0px 10px #000;
+    padding: 20px;
+    width: 460px;
+    height: 280px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.rodapelista1, .rodapelista2, .youtube, .inicio, .copyright, .titulo{
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    
+}
+
+a:visited {
+    color: black;
+}
+
+.titulo {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.titulo{
+    font-size: large;
+}
+
+h1, h2, h3, .youtube, .inicio{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.youtube{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.youtube a {
+    float: left;
+    margin-top: 50px;
+    margin-right: -80px;
+}
+
+/*imagem do robo*/
+.inicio{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+/*escrita inicio*/
+.inicio a {
+    float: left;
+    margin-right: -90px;
+}
+
+.copyright
+{
+    margin-top: -10px;
+}
+
+
+
+
+
+
+/*rgb(226, 223, 223)
+thistle
+rgb(236, 170, 225)
+rgba(151, 100, 149, 0.767)
+rgb(236, 170, 225);
+rgb(211, 195, 212)
+rgb(190, 111, 177)
+rgb(236, 170, 225);
+rgb(122, 45, 112)
+rgb(177, 175, 175)
+rgb(255, 247, 247)*/
